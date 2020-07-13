@@ -1,0 +1,80 @@
+/*TITULOS*/
+.titulo h1{
+  font-size: 60px;
+  font-family: "Open Sans", sans-serif;
+}
+/* BOTOES MENU*/
+.menu1{
+  cursor: pointer; 
+  height: 40px;
+  font-weight: 500;
+  width: 100px;
+}
+.menu2{
+  cursor: pointer; 
+  height: 40px;
+  font-weight: 500;
+  width: 100px;
+}
+.menu3{
+  cursor: pointer; 
+  height: 40px;
+  font-weight: 500;
+  width: 100px;
+}
+.btn-camp{
+  border: 0px;
+  background-color: #ffffff;
+}
+.btn-camp:focus{
+  outline: 0px;
+}
+.selecionado{
+  background-color: #b90b13;
+  border-radius: 16px;
+  color: #ffffff;
+}
+/*MUDAR DE BOX*/
+.box2{
+  width: 100%;
+}
+.ativo{
+
+}
+.desativo{
+  display: none;
+}
+/*FOTOS*/
+.divgaleria{
+  overflow: hidden;
+  display: flexbox;
+  height: 800px;
+}
+.fotos{
+  overflow: hidden;
+  float: left;
+  height: 200px;
+  width: 25%;
+  border: 1px solid white;
+}
+.fotos img{
+  height: 200px;
+  transition: ease-in-out 0.5s;
+
+}
+.fotos img:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+  
+}
+/*FOTOS NO CELULAR*/
+@media (max-width: 576px) {
+  .fotos {
+    width: 100%;
+  }
+@media (max-width: 576px) {
+  .fotos img{
+    width: 100%;
+    height: auto;
+  }
+}

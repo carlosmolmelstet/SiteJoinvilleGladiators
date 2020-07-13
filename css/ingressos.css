@@ -1,0 +1,143 @@
+/*TITULO */
+.titulo1 img{
+    height: 100px ;
+    margin-top: -50px;
+}
+@media (max-width: 576px) {
+    .titulo1 img{
+      display: none;
+    }
+  }
+.titulo1 a{
+    font-size: 500%;
+    color: black;
+    font-family: 'Kanit', sans-serif;
+}
+.titulo1 a:hover{
+    color: black;
+}
+
+.ingressos{
+    font-family: 'Kanit', sans-serif;
+    font-size: 500%;
+}
+/*SELEÇÃO JOGOS*/
+.selectjogo{
+    display: flex;
+    width: 400px;
+    margin-left:px;
+    border-radius: 20px 20px 0px 0px;
+    background-color: #b90b13;
+    height: 40px;
+}
+.selectjogo p{
+    margin-left: 30px;
+    font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: black;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.selectjogo select{
+    margin-top: 2px;
+    background-color: #b90b13;
+    height: 40px;
+    border: 0px;
+    font-family: "Open Sans", sans-serif;
+}
+select:focus {
+    outline: 0px;
+}
+@media (max-width: 576px) {
+    .selectjogo{
+      margin-left: 20px;
+    }
+  }
+
+/*CARD COMPRAR*/
+.boxpai{
+    width: 100%;
+    border: 3px solid #b90b13;
+    border-radius: 0px 20px 20px 20px;
+    overflow: hidden;
+    box-shadow: -6px 12px 17px 0px rgba(0,0,0,0.75);
+    background-image: url(../paginas/ingressos/bg1.jpg);
+    background-size: cover;
+}
+@media (max-width: 576px) {
+    .boxpai{
+      margin-left: 20px;
+    }
+  }
+/*TITUO DO JOGO*/
+.jogo{
+    color: black;
+    font-size: 200%;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+/*INFO JOGOS*/
+.jogos{
+    margin-left: 50px;
+}
+.infoingresso p {
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 4px;
+}
+.desativo{
+    display: none;
+}
+.quantidade{
+    width: 5%;
+    background-color: rgba(0, 0, 0, 0.0);
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+/*CARTAO*/
+.cartao{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.cartao img{
+    width: 100%;
+}
+/*FORM CARTAO*/
+.forms{
+    margin-left: 13%;
+    margin-right: 13%;
+}
+/* ICONE CARTAO*/
+.icon1{
+    font-size: 20px;
+    margin-top: 5px;
+    margin-left: 3px;
+}
+/* ICONE CHECK*/
+.icon2{
+    font-size: 25px;
+    margin-top: 7px;
+    margin-left: 3px;
+}
+/*COMPRAR*/
+.final{
+    background-color: #b90b13;
+}
+.botaocompra{
+    height: 70px;
+}
+.botaocompra a{
+    font-family: "Open Sans", sans-serif;
+    font-size: 300%;
+    font-weight: 100;
+    color: #ffffff;
+    text-transform: uppercase;
+    
+}
+.final:hover {
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #cd0c15;
+
+}    

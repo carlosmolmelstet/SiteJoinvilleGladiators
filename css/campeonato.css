@@ -1,0 +1,138 @@
+h1{
+  font-family: Open Sans;
+text-transform: uppercase;
+font-size: 500%;
+
+}
+/* BOTOES MENU*/
+.menu1{
+    cursor: pointer; 
+    height: 40px;
+    font-weight: 500;
+    width: 150px;
+}
+.menu2{
+    cursor: pointer; 
+    height: 40px;
+    font-weight: 500;
+    width: 100px;
+}
+.btn-camp{
+    border: 0px;
+    background-color: #ffffff;
+}
+.btn-camp:focus{
+    outline: 0px;
+}
+.selecionado{
+    background-color: #b90b13;
+    border-radius: 16px;
+    color: #ffffff;
+}
+/*MUDAR DE BOX*/
+.box1{
+    width: 100%;
+}
+.box2{
+    width: 100%;
+}
+.ativo{
+    
+}
+.desativo{
+    display: none;
+}
+/*CARD INFOS  */
+.infoheader{
+    background-color: #b90b13;
+    width: 60%;
+    height: 30px;
+    border-radius: 5px 5px 0px 0px ;
+    margin-top: 50px;
+}
+.infoheader p{
+    color: #ffffff;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 700;
+    padding-left: 10px;
+    padding-top: 6px;
+}
+.infoheader i{
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+.infos h4{
+    font-family: Open Sans;
+    font-weight: 700;
+}
+.infos p {
+    margin-bottom: 0px;
+}
+
+/*TABELAS*/
+.mytable thead{
+    color: #ffffff;
+    background-color: #b90b13;
+} 
+@media (max-width: 576px){
+    .col2 img{
+        display: none;
+    }
+}
+/*JOGOS*/
+
+.jogos{
+    box-shadow: 0px 10px 15px -5px rgba(0, 0, 0, 0.75);
+    background-image: url(../paginas/home/bgjogos.png);
+    background-repeat: no-repeat;
+  
+  }
+.jogos a{
+    color: #b90b13;
+}
+@media (max-width: 576px) {
+    .jogos {
+      width: 100%;
+      margin-top: 20px;
+    }
+  }
+.infojogos h4{
+    font-family: Open Sans;
+    font-weight: 600;
+  }
+ .infojogos h5{
+    color: #727272;
+    font-family: Open Sans;
+    font-weight: 500;
+    margin-bottom: -2px;
+  }
+.infojogos p{
+    color: #7a7a7a;
+    font-family: Open Sans;
+    margin-bottom: -5px;
+  }
+.logojogos img{
+    margin-top: 50%;
+    width: 60px;
+    transition: ease-out 0.5s;
+  }
+.logojogos img:hover{
+    margin-top: 50%;
+    width: 60px;
+    transform: scale(1.2);
+  }
+.vm2{
+    display: none;
+  }
+.vermais{
+    color:#b90b13;
+    margin-bottom: 100px;
+  }
+.vermais:hover{
+    cursor: pointer;
+  }
+.vm1 p{
+    margin-bottom: -3px;
+  }

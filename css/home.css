@@ -1,0 +1,387 @@
+$carousel-width: 500px;
+$carousel-height: 500px;
+.wrap {
+  position: relative;
+  width: $carousel-width;
+  height: 300px;
+  margin: 0 auto;
+}
+.window {
+  overflow: hidden;
+  position: relative;
+  background: #222;
+}
+#carousel {
+  width: 10000px;
+  position: relative;
+  top: 0; left: -450px;
+}
+/*SLIDES*/
+.slide {
+  height: 300px;
+  width: 500px;
+  cursor: pointer;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.slide#b1{
+ background-image: url(../paginas/home/banner1.jpg); background-size: cover; border: 2px solid #fff;
+}
+.slide#b2{
+  background-image: url(../paginas/home/banner2.jpg); background-size: cover; border: 2px solid #fff;
+}
+.slide#b3{ 
+  background-image: url(../paginas/home/banner3.jpg); background-size: cover; border: 2px solid #fff;
+}
+.slide#b4{ background-image: url(../paginas/home/banner1.jpg); background-size: cover; border: 2px solid #fff; 
+}
+.slide#b5{ background-image: url(../paginas/home/banner2.jpg); background-size: cover;  border: 2px solid #fff;
+}
+.slide#b6{
+  background-image: url(../paginas/home/banner3.jpg); background-size: cover; border: 2px solid #fff;
+}
+#prev, #next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  font-size: 20pt;
+}
+#prev { 
+  left: 0;
+ }
+#next { 
+  right: 0;
+}
+.transition {
+  transition: .7s;
+}
+/*BANNERS CATEGORIAS*/
+.banner1{
+  background-image: url(../paginas/home/capa.jpg);
+  background-size: cover;
+    height: 500px;
+  border: 2px solid #ffffff;
+}
+.banner2{
+  background-image: url(../paginas/home/capa1.png);
+  background-size: cover;
+  height: 500px;
+  border: 2px solid #ffffff;
+}
+
+.banner3{
+  background-color: green;
+  height: 500px;
+  border: 2px solid #ffffff;
+}
+/*BTN SELEÇAO */
+.menu1{
+  cursor: pointer; 
+  height: 40px;
+  font-weight: 500;
+  width: 100px;
+}
+.menu2{
+  cursor: pointer; 
+  height: 40px;
+  font-weight: 500;
+  width: 100px;
+}
+.menu3{
+  cursor: pointer; 
+  height: 40px;
+  font-weight: 500;
+  width: 100px;
+}
+.btn-camp{
+  border: 0px;
+  background-color: #ffffff;
+}
+.btn-camp:focus{
+  outline: 0px;
+}
+.selecionado{
+  background-color: #b90b13;
+  border-radius: 16px;
+  color: #ffffff;
+}
+@media (max-width: 1200px){
+  .btn-camp{
+    margin-top: 50px;
+  }
+}
+/*TABELA CAMP*/
+.table{
+  margin-bottom: -5px;
+}
+.mytable {
+  font-family: 'Kanit', sans-serif;
+  width: 100%;
+  margin-left: 5%;
+  overflow: hidden;
+  box-shadow: 0px 10px 15px -5px rgba(0, 0, 0, 0.4);
+}
+.mytable thead {
+  background-color: #b90b13;
+  color: #ffffff;
+  width: 100%;
+}
+.maiscamp{
+  background-color: #ffffff;
+  width: 100%;
+  border: 0px;
+  height: 50px;
+  font-family: Open Sans;
+  color: #b90b13;
+  text-transform: uppercase;
+  font-size: 90%;
+  font-weight: 600;
+  text-align: right;
+  padding-right: 10%;
+  padding-top: -50px;
+}
+@media (max-width: 995px) {
+  .linhamytable img {
+    display: none;
+  }
+}
+/*SOCIO*/
+.cardbox {
+  width: 100%;
+  box-shadow: 0px 10px 15px -5px rgba(0, 0, 0, 0.4);
+  font-family: 'Kanit', sans-serif;
+}
+.socio{
+  width: 100%;
+  box-shadow: 0px 10px 15px -5px rgba(0, 0, 0, 0.4);
+}
+.rowcard2 h4{
+  color: #000000;
+  font-family: 'Kanit', sans-serif;
+  font-size: 300%;
+  font-weight: 800;
+  font-style: italic;
+  margin-top: -20px;
+}
+.rowcard2 h5{
+  color: #000000;
+  font-family: 'Kanit', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  font-style: italic;
+}
+@media (max-width: 995px) {
+  .rowcard2 h5 {
+    font-size: 15px;
+  }
+}
+.rowcard2 h6{
+  color: #000000;
+  font-family: 'Kanit', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  font-style: italic;
+}
+@media (max-width: 995px) {
+  .rowcard2 h6 {
+    font-size: 25px;
+  }
+}
+.rowcard2 p{
+  font-family: 'Kanit', sans-serif;
+}
+.btnsocio{
+  font-family: 'Kanit', sans-serif;
+  background-color: #ffffff;
+  color: black;
+  border: 1px solid #000000;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.btnsocio:hover{
+  font-family: 'Kanit', sans-serif;
+  font-weight: 400;
+  color: #b90b13;
+  border: 2px solid #b90b13;
+  margin-bottom: 9px;
+  margin-top: -1px;
+}
+.hidden {
+  overflow: hidden;
+}
+/*IMG NOTICIA 1*/
+.imgcardbox1 {
+  overflow: hidden;
+  background-image: url(../paginas/home/flagcup.jpg);
+  background-size: cover;
+  transition: ease-in 0.1s;
+}
+.imgcardbox1:hover {
+  transform: scale(1.1);
+}
+/*IMG NOTICIA 2*/
+.imgcardbox2 {
+  overflow: hidden;
+  background-image: url(../paginas/home/uniforme.jpg);
+  background-size: cover;
+  transition: ease-in 0.1s;
+}
+.imgcardbox2:hover {
+  transform: scale(1.1);
+}
+/*IMG NOTICIA 3*/
+.imgcardbox3 {
+  overflow: hidden;
+  background-image: url(../paginas/home/burger.jpeg);
+  background-size: cover;
+  transition: ease-in 0.1s;
+}
+.imgcardbox3:hover {
+  transform: scale(1.1);
+}
+/*IMG NOTICIA 4*/
+.imgcardbox4 {
+  overflow: hidden;
+  background-image: url(../paginas/home/hc.jpg);
+  background-size: cover;
+  transition: ease-in 0.1s;
+}
+.imgcardbox4:hover {
+  transform: scale(1.1);
+}
+.cardsm{
+  height: 200px;
+}
+/*TAMANHO IMG CARD NO MOBILLE*/
+/*GALERIA*/
+.titulogaleria {
+  height: 50px;
+}
+.boxgaleria {
+  width: 100%;
+  background-image: url(../paginas/home/galeria1.png);
+  background-position: center;
+  background-size: cover;
+  transition: ease-in 1s;
+}
+.boxgaleria:hover {
+  width: 100%;
+  background-image: url(../paginas/home/galeria2.png);
+  background-position: center;
+  background-size: cover;
+}
+.galeria {
+  color: rgba(0, 0, 0, 0);
+  font-family: 'Kanit', sans-serif;
+  width: 100%;
+  font-size: 44px;
+  padding: 100px;
+  height: 500px;
+  background-color: rgba(0, 0, 0, 0);
+  border: solid rgba(0, 0, 0, 0) 1px;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+  transition: ease-in;
+}
+.galeria:hover {
+  background-color: rgba(0, 0, 0, 0);
+  text-decoration: none;
+  color: #b90b13;
+  font-weight: 500;
+  transition: ease-in 0.5s;
+}
+/*CELL*/
+@media (max-width: 767px) {
+  .galeria {
+    padding: 170px;
+  }
+}
+/* FINAL GALERIA*/
+/*TRYOUT*/
+.tryout {
+  width: 100%;
+  background-image: url(../paginas/home/tryout.png);
+  background-size: cover;
+  transition: ease-in 1s;
+}
+.tryout:hover {
+  width: 100%;
+  background-image: url(../paginas/home/tryout2.png);
+  background-size: cover;
+  transition: ease-in 1s;
+}
+.btntryout {
+  color: rgba(0, 0, 0, 0);
+  font-family: 'Kanit', sans-serif;
+  width: 100%;
+  font-size: 44px;
+  padding: 100px;
+  height: 500px;
+  background-color: rgba(0, 0, 0, 0);
+  border: solid rgba(0, 0, 0, 0) 1px;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+  transition: ease-in;
+}
+/*CELL*/
+@media (max-width: 767px) {
+  .btntryout {
+    padding: 170px;
+  }
+}
+.btntryout:hover {
+  background-color: rgba(0, 0, 0, 0);
+  text-decoration: none;
+  color: #b90b13;
+  font-weight: 500;
+  transition: ease-in 0.5s;
+}
+/*FINAL TRYOUT*/
+/*ULTIMO JOGO*/
+.jogo{
+  box-shadow: 0px 10px 15px -5px rgba(0, 0, 0, 0.4);
+}
+.imgjogo{
+  margin: 10px;
+  width: 80%;
+}
+.headjogo{
+  background-color: #b90b13;
+  height: 50px;
+  color: #ffffff;
+  font-family: 'Kanit', sans-serif;
+  font-weight: 500;
+  padding-top: 12px;
+}
+.infojogo h6{
+  font-family: 'Kanit', sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+}
+.infojogo p{
+  font-family: 'Kanit', sans-serif;
+  font-weight: 600;
+  font-style: italic;
+  margin-bottom: 0px;
+}
+.btnjogo{
+  font-family: 'Kanit', sans-serif;
+  background-color: #ffffff;
+  color: black;
+  border: 1px solid #000000;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+.btnjogo:hover{
+  font-family: 'Kanit', sans-serif;
+  font-weight: 400;
+  color: #b90b13;
+  border: 2px solid #b90b13;
+  margin-bottom: 9px;
+  margin-top: -1px;
+}
+/*FINAL ULTIMO JOGO*/

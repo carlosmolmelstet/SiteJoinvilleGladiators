@@ -1,0 +1,54 @@
+/*MAIN PT 0*/
+/*TITULO*/
+.titulo {
+  font-size: 500%;
+  font-family: 'Kanit', sans-serif;
+}
+/*SUB TITULO*/
+.subtitulo {
+  font-size: 300%;
+  font-family: 'Kanit', sans-serif;
+}
+/*MAIN-PT-1*/
+.titulomain{
+  font-family: 'Kanit', sans-serif;
+  font-size: 200%;
+}
+/*MAIN PT 1*/
+.main-pt1 p{
+  font-family: 'Kanit', sans-serif;
+}
+/*MAIN PT 2*/
+.main-pt2 h3{
+  font-family: 'Kanit', sans-serif;
+}
+.main-pt2 p{
+  font-family: 'Kanit', sans-serif;
+  font-weight: 300;
+}
+.galeria{
+  border-radius: 5px;
+  border: 0px;
+  width: 100%;
+  height: 300px;
+  background-image: url(../paginas/littleglads/foto.jpg);
+  font-family: 'Kanit', sans-serif;
+  font-weight: 100;
+  font-size: 500%;
+  color: rgba(0, 0, 0, 0);
+ 
+}
+
+.galeria:hover{
+  border-radius: 5px;
+  border: 0px;
+  font-family: 'Kanit', sans-serif;
+  font-weight: 300;
+  font-size: 500%;
+  color: #ffffff;
+  transition: ease-in 0.5s;
+}
+
+
+
+

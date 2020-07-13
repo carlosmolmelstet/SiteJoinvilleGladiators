@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Joinville Gladiators</title>
+  <!--FONTS-->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,400;1,600;1,700;1,800&display=swap"
+    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <!--LINKS CSS-->
+  <link rel="stylesheet" href="css/bootstrap.css" />
+  <link rel="stylesheet" href="css/estrutura.css" />
+  <link rel="stylesheet" href="css/anigeral.css" />
+  <link rel="stylesheet" href="css/home.css" />
+</head>
+<body>
+  <div class="bar "> 
+  <div class="banner text-center ">
+    <img src="logos/logogladshd.png" href="home.html" class="logo" srcset="">
+    <button class="navbar-toggler d-xl-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+      aria-controls="collapsibleNavId" id="btnnav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"><i class="fa fa-align-justify" aria-hidden="true"></i>
+      </span>
+    </button>
+  </div>
+  <div class="container">
+        <!--NAVBAR GRANDE-->
+    <div class="boxnavbig  ">
+      <nav class="navbar navbar-expand-xl mynav ">
+        <a class="navbar-brand" href="#"><img class="navlogo ml-5" src="logos/logogl.png" alt="" /></a>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+          <ul class="navbar-nav mr-auto mt-2 mt-xl-0" style="margin-left: -40px;">
+            <li class="nav-item">
+              <div class="dropdown">
+                <button class="btn btndrop dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  clube
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="full.html">full pads</a>
+                    <a class="dropdown-item" href="little.html">little glads</a>
+                    <a class="dropdown-item" href="sobre.html">sobre</a>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="socio.html">socío tocedor</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="campeonato.html">Campeonatos</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav mr-5 mt-2 mt-lg-0 "style="padding-right: 100px;">
+            <li class="nav-item">
+              <a class="nav-link" href="loja">loja</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"  href="galeria.html">Galeria</a>         
+            <li class="nav-item">
+              <a class="nav-link" href="contato.html"> Contatos</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <!--NAVBAR PEQUENA-->
+    <div class="boxnavsmall">
+    <nav class="navbar navbar-expand-xl mynav ">
+      <div class="collapse navbar-collapse" id="collapsibleNavId">
+        <ul class="navbar-nav mr-auto mt-2 mt-xl-0" >
+          <li class="nav-item">
+            <a class="nav-link" href="full.html">full pads</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="little.html">Little Glads</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="socio.html">socío tocedor</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="campeonato.html">Campeonatos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"  href="galeria.html">Galeria</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="sobre.html">sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contato.html"> Contatos</a>
+          </li>
+      </div>
+    </nav>
+  </div>
+  </div>
+  </div>
+  <main>
+    <!--COMEÇO MAIN-PT0-->
+    <div class="container ">
+        <div class="row mt-4">
+              <div class="col-12">
+                <span id="prev" ><i id="prev" class="fa fa-angle-left " aria-hidden="true"></i>
+                </span>
+                <div class="wrap mb-5">
+                  <div class="window">
+                   <div id="carousel">
+                      <span class="slide" onclick="b2();" id="b1"> </span>
+                      <span class="slide" onclick="b1();"  id="b2"></span>
+                      <span class="slide" id="b3"> </span>
+                      <span class="slide" onclick="b2();" id="b4"> </span>
+                      <span class="slide" onclick="b1();"  id="b5"> </span>
+                      <span class="slide" id="b6"> </span>
+                    </div>
+                  </div>
+                </div>
+                <span id="next"><i class="fa fa-angle-right" aria-hidden="true"></i>
+                </span>
+              </div>
+        </div>
+    </div>
+        <!--COMEÇO MAIN-PT1-->
+    <div class="container  ">
+      <div class="botoes  mb-3 ">
+        <button class=" btn-camp menu1 selecionado">NOVAS</button>
+        <button class=" btn-camp menu2 ">FULL PADS</button>
+        <button class=" btn-camp menu3">LITTLE</button>
+      </div>
+      <div class="row">
+        <!--NOTICIAS-->
+        <div class="col-md-8 ">
+          <!--NOTICIA 1-->
+          <div class="row box2">
+            <div class="card cardbox mb-5 hidden" style=>
+              <div class="row ">
+                <div class="col-lg-4  imgcardbox1">
+                  <div class="cardsm"></div>
+                </div>
+                <div class="col-lg-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Flag Cup Sixteen</h5>
+                    <p class="card-text">
+                      O Little Glads participou da segunda edição do campeonado brasileiro de Flag Football Etapa Sul,
+                      que ocorreu em Indaial-SC
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum alias po
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--NOTICIA 2-->
+          <div class="row box1">
+            <div class="card cardbox mb-5 mt-2 hidden" style=>
+              <div class="row ">
+                <div class="col-lg-4 imgcardbox2">
+                  <div class="cardsm"></div>
+                </div>
+                <div class="col-lg-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Back and Yellow</h5>
+                    <p class="card-text">
+                      O Joinvile Gladiators retorna as origens com o preto e amarelo, mas mantem o estilo moderno dos
+                      uniformes
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum alias po
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum alias po
+                    </p>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--NOTICIA 3-->
+          <div class="row box2">
+            <div class="card cardbox mb-5 mt-2 hidden" style=>
+              <div class="row">
+                <div class="col-lg-4 imgcardbox3">
+                  <div class="cardsm"></div>
+                </div>
+                <div class="col-lg-8">
+                  <div class="card-body">
+                    <h5 class="card-title">O melhor hamburguer da cidade</h5>
+                    <p class="card-text">
+                      O melhor pão, dois hamburgueres artesanais de costela, queijo e um molho que voce nunca vai
+                      esquecer!
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum alias po
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum alias po
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--NOTICIA 4-->
+          <div class="row box1">
+            <div class="card cardbox mb-5 mt-2 hidden" style=>
+              <div class="row">
+                <div class="col-lg-4 imgcardbox4">
+                  <div class="cardsm"></div>
+                </div>
+                <div class="col-lg-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Reforço de peso na CT</h5>
+                    <p class="card-text">
+                      O treinador americano Mike Seas é o novo HC (Head Coach) do Joinville Gladiators
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum alias po
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum alias po
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum alias p
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--NOTICIA 3-->
+          <div class="row box1">
+            <div class="card cardbox mb-5 mt-2 hidden" style=>
+              <div class="row">
+                <div class="col-lg-4 imgcardbox3">
+                  <div class="cardsm"></div>
+                </div>
+                <div class="col-lg-8">
+                  <div class="card-body">
+                    <h5 class="card-title">O melhor hamburguer da cidade</h5>
+                    <p class="card-text">
+                      O melhor pão, dois hamburgueres artesanais de costela, queijo e um molho que voce nunca vai
+                      esquecer!
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum alias po
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum alias po
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="card socio mb-5 mt-2 hidden" style=>
+              <div class="row">
+                <div class="col-12 rowcard1">
+                  <img src="paginas/home/socio4.jpg" class="img-fluid" alt="">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  <div class="card-body">
+                    <div class="rowcard2">
+                      <h4 class="text-center">SÓCIO TORCEDOR</h4>
+                      <div class="row">
+                        <div class="col-8 mt-3">
+                          <p> <i class="fa fa-check-square" aria-hidden="true"></i>
+                            Camiseta Exclusiva Legião GoGlads</p>
+                          <p> <i class="fa fa-check-square" aria-hidden="true"></i>
+                            20% de desconto nos produtos do time</p>
+                          <p> <i class="fa fa-check-square" aria-hidden="true"></i>
+                            Sorteios exclusivos</p>
+                          <p> <i class="fa fa-check-square" aria-hidden="true"></i>
+                            Desconto em +20.000 estabelecimentos em todo o Brasil </p>
+                          <p> <i class="fa fa-check-square" aria-hidden="true"></i>
+                            Carteirinha física da Legião</p>
+                        </div>
+                        <div class="col-4 mt-5">
+                          <h6>A PARTIR:</h6>
+                          <h5>R$ 14,99/mes*</h5>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-12">
+                          <div class="text-center">
+                            <a href="link para socio">
+                              <button class="btnsocio">
+                                VER PLANOS
+                              </button>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--SIDE BAR-->
+        <div class="col-md-4 ">
+          <!--TABELA-->
+          <div class="row">
+            <div class="mytable mt-2 mb-5 ">
+              <table class="table table-hover ">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">TIME</th>
+                    <th scope="col">V</th>
+                    <th scope="col">D</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="linhamytable">
+                    <th scope="row">1</th>
+                    <td>
+                      <img src="logos/logoglads.png" style="height: 20px; margin-right: 10px;" alt=""
+                        srcset="" />Gladiators</td>
+                    <td>6</td>
+                    <td>1</td>
+                  </tr>
+                  <tr class="linhamytable">
+                    <th scope="row">2</th>
+                    <td>
+                      <img src="logos/logorex.png" style="height: 20px;  margin-right: 10px;" alt="" srcset="" />
+                      T-Rex
+                    </td>
+                    <td>5</td>
+                    <td>2</td>
+                  </tr>
+                  <tr class="linhamytable">
+                    <th scope="row">3</th>
+                    <td>
+                      <img src="logos/logoblack.png" style="height: 20px;  margin-right: 10px;" alt="" srcset="" />Black
+                      Hawks</td>
+                    <td>5</td>
+                    <td>2</td>
+                  </tr>
+                  <tr class="linhamytable">
+                    <th scope="row">4</th>
+                    <td>
+                      <img src="logos/logoistepos.png" style="height: 20px;  margin-right: 10px;" alt=""
+                        srcset="" />Istepos</td>
+                    <td>5</td>
+                    <td>2</td>
+                  </tr>
+                  <tr class="linhamytable">
+                    <th scope="row">5</th>
+                    <td><img src="logos/logovikings.png" style="height: 30px;  margin-right: 20px;" alt=""
+                        srcset="" />Almirantes</td>
+                    <td>4</td>
+                    <td>3</td>
+                  </tr>
+                </tbody>
+              </table>
+              <a href="campeonato.html">
+                <button type="button" class="maiscamp">
+                  Tabela Completa <i class="fa fa-table" aria-hidden="true"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+          <!--GALERIA-->
+          <div class=" row">
+            <div class="mytable mt-2 mb-5 ">
+              <table style="height: 500px;">
+                <thead class="text-center">
+                  <tr class="titulogaleria">
+                    <th>GALERIA</th>
+                  </tr>
+                </thead>
+                <tbody style="overflow: hidden; ">
+                  <tr">
+                    <td class="boxgaleria mt-4 ">
+                      <a href="galeria.html" target="_blank">
+                        <button class="galeria">+ FOTOS</button>
+                      </a>
+                    </td>
+                    </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <!-- TRYOUT -->
+          <div class=" row">
+            <div class="mytable mt-2 mb-5 ">
+              <table style="">
+                <thead class="text-center">
+                  <tr class="titulogaleria">
+                    <th>TRYOUT</th>
+                  </tr>
+                </thead>
+                <tbody style="overflow: hidden; ">
+                  <tr">
+                    <td class="tryout mt-4 ">
+                      <a href="truout" target="_blank">
+                        <button class="btntryout">SAIBA MAIS</button>
+                      </a>
+                    </td>
+                    </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <!-- TRYOUT -->
+          <div class=" row ">
+            <div class="mytable jogo">
+              <div class="row">
+                <div class="col-12 headjogo text-center">
+                  <p>PROXIMO JOGO</p>
+                </div>
+              </div>
+              <div class="row mt-2">
+                <div class="col-6 "><img src="logos/logovikings.png" class="imgjogo" alt="" srcset=""></div>
+                <div class="col-6 infojogo">
+                  <h6>INFOS</h6>
+                  <p></p>
+                  <p>26/08</p>
+                  <P>14:30</P>
+                  <p>BLUMENAU-SC</p>
+                  <p>AABB Gaspar</p>
+                </div>
+              </div>
+              <div class="row mt-2">
+                <div class="col-4"></div>
+                <div class="col-4 mt-3">
+                  <div class="text-center">
+                    <a href="link para socio">
+                      <button class="btnjogo">
+                        + JOGOS
+                      </button>
+                    </a>
+                  </div>
+                  <div class="col-4"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </main>
+
+  <!--INICIO DO FOOTER-->
+  <footer>
+    <!--FOOTER PT-1-->
+    <div class="row footer1">
+      <div class="col-12 md">
+        <img src="paginas/footer/pb.png" class="animefooter" alt="" srcset="" />
+      </div>
+    </div>
+    <!--FOOTER PT-2-->
+    <div class="row footer2">
+      <!--PATROCINIOS-->
+      <div class="col-12">
+        <a href="https://www.instagram.com/burger4fun/" target="_blank">
+          <img class="aniptr" src="logos/4fun.png" alt="" srcset="" />
+        </a>
+        <a href="https://www.instagram.com/catolicasc/" target="_blank">
+          <img class="aniptr" src="logos/catolica.png" alt="" srcset="" />
+        </a>
+        <a href="https://www.instagram.com/fisiothera/" target="_blank">
+          <img class="aniptr" src="logos/fisiothera.png" alt="" srcset="" />
+        </a>
+        <a href="https://www.instagram.com/fcfabr/" target="_blank">
+          <img class="aniptr" src="logos/fcfa.png" alt="" srcset="" />
+        </a>
+        <a href="http://gremiowhirlpool.com.br/" target="_blank">
+          <img class="aniptr" src="logos/gremio.png" alt="" srcset="" />
+        </a>
+        <a href="https://www.instagram.com/guardemais.joinville/" target="_blank">
+          <img class="aniptr" src="logos/guardemais.png" alt="" srcset="" />
+        </a>
+        <a href="https://www.instagram.com/knnidiomas.jlle/" target="_blank">
+          <img class="aniptr" src="logos/knn.png" alt="" srcset="" />
+        </a>
+      </div>
+    </div>
+    <!--FOOTER PT-3-->
+    <div class="row footer3">
+      <!-- MIDIAS SOCIAIS FOOTER-->
+      <div class="col-md text-center">
+        <h4 class="footertitulo">Nos siga</h4>
+        <div class="midias">
+          <a href="https://www.instagram.com/joinvillegladiatorsoficial/?hl=pt-br" target="_blank"><img class="icon"
+              src="logos/insta.png" style="height: 80px;" alt="" /></a>
+          <a href="https://www.facebook.com/joinvillefutebolamericano/" target="_blank"><img class="icon"
+              src="logos/face.png" style="height: 90px;" alt="" /></a>
+          <a href="https://twitter.com/gladiatorsjlle" target="_blank"><img src="logos/tt.png" class="icon"
+              style="height: 80px;" alt="" /></a>
+          <a href=" http://api.whatsapp.com/send?1=pt_BR&phone=5547996305948" target="_blank"><img class="icon"
+              src="logos/wpp.png" style="height: 80px;" alt="" /></a>
+        </div>
+      </div>
+      <!--CONTATOS FOOTER-->
+      <div class="col-md text-center">
+        <h4 class="footertitulo">Fale conosco</h4>
+        <div class="row">
+          <div class="col-6">
+            <div>
+              <h5 class="footersub">telefones</h5>
+              <p class="footertell">+55 (47) 99119-9695</p>
+              <p class="footertell">+55 (47) 3426-1686</p>
+            </div>
+          </div>
+          <div class="col-6">
+            <div>
+              <h5 class="footersub">Email</h5>
+              <p class="footeremail">gladiators2008@gmail.com</p>
+              <p class="footeremail">molmelstet2016@gmail.com</p>
+            </div>
+          </div>
+        </div>
+        <a href="contato.html">
+          <button class="btncontatos">
+            CONTATOS
+          </button>
+        </a>
+      </div>
+      <!--LOCALIZAÇÃO FOOTER-->
+      <div class="col-xl text-center mapfooter">
+        <h4 class="footertitulo">Onde estamos</h4>
+        <iframe style="margin-bottom: 50px;" class="embed-responsive-item"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3578.304814017616!2d-48.87785418531229!3d-26.25176887228353!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94deaf834e8d3437%3A0x8b6d4d7aa84b0f1f!2sGr%C3%AAmio%20Whirlpool!5e0!3m2!1spt-BR!2sbr!4v1592249706665!5m2!1spt-BR!2sbr"
+          width="350" height="200" frameborder="0" style="border: 5;" allowfullscreen="" aria-hidden="false"
+          tabindex="0"></iframe>
+      </div>
+    </div>
+    <!--FOOTER PT-4-->
+    <div class="row footer4">
+      <p>
+        © Copyright 2008-2020 Joinville Gladiators - All Rights Reserved
+      </p>
+    </div>
+  </footer>
+  <!--FINAL DO FOOTER-->
+  <!--SCRIPTS-->
+  <script src="js/jquery-3.1.1.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script type="text/javascript" src="js/footer.js"></script>
+  <script src="js/anigeral.js"></script>
+  <script src="js/asp.js"></script>
+  <script src="js/home.js"></script>
+  <script src="js/card.js"></script>
+</body>
+</html>
