@@ -37,7 +37,7 @@ html body {
   cursor: pointer;
 }
 /*NAVBAR TOGGLE*/
-@media (max-width: 11px){
+@media (max-width: 1199px){
   .boxnavbig {
     display: none;
   }
@@ -45,7 +45,7 @@ html body {
 .boxnavsmall{
   margin-top: 50px;
   display: none;
-  height: 400px;
+  height: 300px;
 }
 
 @media (min-width: 1200px){
@@ -53,11 +53,13 @@ html body {
     display: none;
   }
 }
-
 @media (max-width: 770px){
   .boxnavsmall{
     margin-top: 50px;
   }
+}
+main{
+  margin-top: 90px;
 }
 
 /* ITENS DA NAVBAR*/
