@@ -45,7 +45,7 @@ font-size: 500%;
 /*CARD INFOS  */
 .infoheader{
     background-color: #b90b13;
-    width: 60%;
+    width: 150px;
     height: 30px;
     border-radius: 5px 5px 0px 0px ;
     margin-top: 50px;
@@ -53,10 +53,10 @@ font-size: 500%;
 .infoheader p{
     color: #ffffff;
     font-family: 'Kanit', sans-serif;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 700;
     padding-left: 10px;
-    padding-top: 6px;
+    padding-top: 3px;
 }
 .infoheader i{
     margin-top: 5px;

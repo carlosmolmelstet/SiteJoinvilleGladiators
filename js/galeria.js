@@ -6,6 +6,8 @@ $(function () {
         $('.fp').addClass('ativo');
         $('.lg').removeClass('desativo');
         $('.fp').removeClass('desativo');
+        $('.vm1').removeClass('desativo');
+        $('.vm3').removeClass('desativo');
     })
     /*ATIVA FULL PADS */
     $('.menu2').click(function () {
@@ -13,6 +15,9 @@ $(function () {
         $('.lg').addClass('desativo');
         $('.lg').removeClass('ativo');
         $('.fp').removeClass('desativo');
+        $('.vm1').addClass('desativo');
+        $('.vm3').addClass('desativo');
+
     })
     /*ATIVA LITTLE */
     $('.menu3').click(function () {
@@ -20,6 +25,8 @@ $(function () {
         $('.fp').addClass('desativo');
         $('.fp').removeClass('ativo');
         $('.lg').removeClass('desativo');
+        $('.vm1').addClass('desativo');
+        $('.vm3').addClass('desativo');
     })
     /*ATIVA MENU 1 */
     $('.menu1').click(function () {
@@ -46,13 +53,13 @@ $(function () {
 $(function () {
     $('.vm1').click(function () {
         $('.divgaleria').css('height', 'auto')
-        $('.vm2').removeClass('desativo');
+        $('.vm3').removeClass('desativo');
         $('.vm1').addClass('desativo');
     })
-    $('.vm2').click(function () {
+    $('.vm3').click(function () {
         $('.divgaleria').css('height', '800px')
         $('.vm1').removeClass('desativo');
-        $('.vm2').addClass('desativo');
+        $('.vm3').addClass('desativo');
     })
 
 });

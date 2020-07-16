@@ -1,7 +1,16 @@
 /*TITULOS*/
-.titulo h1{
-  font-size: 60px;
-  font-family: "Open Sans", sans-serif;
+.titulo{
+  margin-top: -50px;
+  font-family: 'Kanit', sans-serif;
+  font-weight: 500;
+  font-size: 500%;
+
+}
+ h2{
+  font-size: 50px;
+  font-family: 'Kanit', sans-serif;
+  font-weight: 300;
+  font-style: italic;
 }
 /* BOTOES MENU*/
 .menu1{
@@ -47,13 +56,12 @@
 /*FOTOS*/
 .divgaleria{
   overflow: hidden;
-  display: flexbox;
   height: 800px;
 }
 .fotos{
   overflow: hidden;
   float: left;
-  height: 200px;
+  height: 25%;
   width: 25%;
   border: 1px solid white;
 }
@@ -64,13 +72,20 @@
 }
 .fotos img:hover{
   transform: scale(1.1);
-  cursor: pointer;
   
 }
 /*FOTOS NO CELULAR*/
+@media (max-width: 1199px) {
+  .fotos {
+    width: 33%; 
+  }
+@media (max-width: 764px) {
+  .fotos {
+     width: 50%; 
+  }
 @media (max-width: 576px) {
   .fotos {
-    width: 100%;
+    width: 100%; 
   }
 @media (max-width: 576px) {
   .fotos img{
